@@ -1,0 +1,138 @@
+{
+  "inputs": {
+    "_snowpack/pkg/common/preact.module-e813fd64.js": {
+      "bytes": 8888,
+      "imports": []
+    },
+    "_snowpack/pkg/preact.js": {
+      "bytes": 74,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/preact.module-e813fd64.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/preact/devtools.js": {
+      "bytes": 270,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/preact.module-e813fd64.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/preact/hooks.js": {
+      "bytes": 1771,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/preact.module-e813fd64.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/logo.png.proxy.js": {
+      "bytes": 32,
+      "imports": []
+    },
+    "dist/App.css": {
+      "bytes": 629,
+      "imports": []
+    },
+    "dist/App.js": {
+      "bytes": 1031,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/preact.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/preact/hooks.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/logo.png.proxy.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.css",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.css": {
+      "bytes": 366,
+      "imports": []
+    },
+    "dist/index.js": {
+      "bytes": 256,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/preact.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/preact/devtools.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/index.css",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "dist/index.js",
+      "inputs": {
+        "_snowpack/pkg/common/preact.module-e813fd64.js": {
+          "bytesInOutput": 13185
+        },
+        "_snowpack/pkg/preact.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/preact/devtools.js": {
+          "bytesInOutput": 146
+        },
+        "_snowpack/pkg/preact/hooks.js": {
+          "bytesInOutput": 2488
+        },
+        "dist/logo.png.proxy.js": {
+          "bytesInOutput": 47
+        },
+        "dist/App.css": {
+          "bytesInOutput": 0
+        },
+        "dist/App.js": {
+          "bytesInOutput": 862
+        },
+        "dist/index.css": {
+          "bytesInOutput": 0
+        },
+        "dist/index.js": {
+          "bytesInOutput": 107
+        }
+      },
+      "bytes": 17017
+    },
+    "../~~bundle~~/dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "dist/index.css": {
+          "bytesInOutput": 421
+        },
+        "dist/App.css": {
+          "bytesInOutput": 626
+        }
+      },
+      "bytes": 1088
+    }
+  }
+}
