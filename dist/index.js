@@ -389,13 +389,15 @@ function App() {
     src: logo_png_proxy_default,
     className: "App-logo",
     alt: "Centural Logo"
-  }), /* @__PURE__ */ a("p", null, "Centural"), /* @__PURE__ */ a("input", {
+  }), /* @__PURE__ */ a("h1", null, "Centural.Us")), /* @__PURE__ */ a("div", {
+    className: "login_register"
+  }, /* @__PURE__ */ a("p", null, "To login to the framework please provide a secret_key which can be created by loging in, typing ", /* @__PURE__ */ a("span", null, "/trigger secret_key"), " then typing in your secret_key in the writable_book."), /* @__PURE__ */ a("label", {
+    for: "secret_key"
+  }, "Secret Key"), /* @__PURE__ */ a("input", {
     "data-testid": "secret_key",
     type: "password",
     label: "Write your secret key in a book secret_key book in game to login!"
-  })), /* @__PURE__ */ a("div", {
-    className: "login_register"
-  }, /* @__PURE__ */ a("p", null, "Username")));
+  })));
 }
 var App_default = App;
 
