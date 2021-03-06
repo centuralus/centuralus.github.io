@@ -394,7 +394,9 @@ function App() {
     href: "https://preactjs.com",
     target: "_blank",
     rel: "noopener noreferrer"
-  }, "Learn Preact"))));
+  }, "Learn Preact"))), /* @__PURE__ */ a("div", {
+    className: "login_register"
+  }, /* @__PURE__ */ a("p", null, "Username")));
 }
 var App_default = App;
 
