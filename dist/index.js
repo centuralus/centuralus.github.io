@@ -388,8 +388,8 @@ function App() {
   }, /* @__PURE__ */ a("img", {
     src: logo_png_proxy_default,
     className: "App-logo",
-    alt: "logo"
-  }), /* @__PURE__ */ a("p", null, "Edit ", /* @__PURE__ */ a("code", null, "src/App.jsx"), " and save to reload."), /* @__PURE__ */ a("p", null, "Page has been open for ", /* @__PURE__ */ a("code", null, count), " seconds."), /* @__PURE__ */ a("p", null, /* @__PURE__ */ a("a", {
+    alt: "Centural Logo"
+  }), /* @__PURE__ */ a("p", null, "Centural"), /* @__PURE__ */ a("p", null, "Page has been open for ", /* @__PURE__ */ a("code", null, count), " seconds."), /* @__PURE__ */ a("p", null, /* @__PURE__ */ a("a", {
     className: "App-link",
     href: "https://preactjs.com",
     target: "_blank",
