@@ -389,12 +389,11 @@ function App() {
     src: logo_png_proxy_default,
     className: "App-logo",
     alt: "Centural Logo"
-  }), /* @__PURE__ */ a("p", null, "Centural"), /* @__PURE__ */ a("p", null, "Page has been open for ", /* @__PURE__ */ a("code", null, count), " seconds."), /* @__PURE__ */ a("p", null, /* @__PURE__ */ a("a", {
-    className: "App-link",
-    href: "https://preactjs.com",
-    target: "_blank",
-    rel: "noopener noreferrer"
-  }, "Learn Preact"))), /* @__PURE__ */ a("div", {
+  }), /* @__PURE__ */ a("p", null, "Centural"), /* @__PURE__ */ a("input", {
+    "data-testid": "secret_key",
+    type: "password",
+    label: "Write your secret key in a book secret_key book in game to login!"
+  })), /* @__PURE__ */ a("div", {
     className: "login_register"
   }, /* @__PURE__ */ a("p", null, "Username")));
 }

@@ -40,7 +40,7 @@
       "imports": []
     },
     "dist/App.js": {
-      "bytes": 1078,
+      "bytes": 946,
       "imports": [
         {
           "path": "_snowpack/pkg/preact.js",
@@ -111,7 +111,7 @@
           "bytesInOutput": 0
         },
         "dist/App.js": {
-          "bytesInOutput": 909
+          "bytesInOutput": 777
         },
         "dist/index.css": {
           "bytesInOutput": 0
@@ -120,7 +120,7 @@
           "bytesInOutput": 107
         }
       },
-      "bytes": 17064
+      "bytes": 16932
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
